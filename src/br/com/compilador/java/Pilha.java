@@ -14,7 +14,7 @@ public class Pilha {
 
     public void insereToken(String simbolos) {
         if (topoPilha == token.length - 1) {
-            System.out.println("A PILHA ESTA CHEIA");
+            System.out.println("A PILHA ESTA CHEIA")
         } else {
             topoPilha++;
             token[topoPilha] = simbolos;
